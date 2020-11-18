@@ -95,6 +95,6 @@ gulp.task('convertcsvtojson',function() {
 /*--------------------------------------------------*/
 /* デフォルトで実行
 /*--------------------------------------------------*/
-gulp.task('default', gulp.series( gulp.parallel('sass', 'watch')));
+gulp.task('default', gulp.series( gulp.parallel('conect', 'html', 'css', 'js', 'sass', 'watch')));
 
 
